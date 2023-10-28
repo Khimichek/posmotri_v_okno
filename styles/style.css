@@ -183,7 +183,7 @@ ol {
 }
 
 .button:active {
-  background-color: #545050;;
+  background-color: #545050;
 }
 
 .button:hover {
@@ -217,7 +217,7 @@ button:focus-visible {
   align-items: center;
   gap: 10px;
   margin: 2px 2px 2px 2px; /*Марджины, чтобы при фокусе у кнопки появлялась двойная граница, иначе не помещается*/
-  padding: 6px 146px;
+  padding: 6px 144px;
   white-space: nowrap;
 
 }
@@ -226,7 +226,7 @@ button:focus-visible {
   position: relative;
   min-width: 711px;
   min-height: 386px;
-  margin-bottom: 16px;
+  margin-bottom: 13px;
 }
 
 .result__video {
@@ -306,8 +306,8 @@ button:focus-visible {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 394px;
   min-height: 107px;
+  max-width: 394px;
 }
 
 .content__video-card-title {
