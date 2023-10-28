@@ -91,7 +91,7 @@ ol {
   border-right: 0;
   border-bottom: 1px solid #FFF;
   border-left: 0;
-  color: rgba(255, 255, 255, 0.70);
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -99,6 +99,11 @@ ol {
   line-height: normal;
   background-color: transparent;
   appearance: none;
+}
+
+.search-form__textfield::placeholder {
+  color: #fff;
+  opacity: 0.7;
 }
 
 .search-form__textfield:active {
